@@ -31,7 +31,7 @@ Na primeira gravação, o macOS ainda vai pedir **Microfone** e **Reconhecimento
 ## 🚀 Como usar
 
 1. Clique num campo de texto de qualquer app (um e-mail, uma mensagem…).
-2. Aperte o atalho — o padrão é **⌥ Option + Espaço** (dá pra trocar: ⚙️ → "Gravar atalho" → aperte a combinação que quiser).
+2. Aperte o atalho — o padrão é **fn + Tab** (dá pra trocar: ⚙️ → "Gravar atalho" → aperte a combinação que quiser).
 3. **Fale.** Aparece um balãozinho "Transcrevendo…" embaixo da tela.
 4. Aperte o atalho **de novo** → o texto entra sozinho no campo. 🎉
 5. Falou besteira? **Esc** cancela (e dá pra desfazer o cancelamento no balãozinho).
@@ -41,7 +41,7 @@ Na primeira gravação, o macOS ainda vai pedir **Microfone** e **Reconhecimento
 No ⚙️ Configurar:
 - Cole sua **chave da OpenAI** (`sk-...`, em [platform.openai.com/api-keys](https://platform.openai.com/api-keys)) e/ou da **Anthropic** (`sk-ant-...`, em [console.anthropic.com](https://console.anthropic.com/settings/keys)).
 - No campo **Prompt**, diga o que a IA deve fazer com sua fala. Ex.: *"Mantenha o que eu falei, tirando redundância e corrigindo pontuação, em português."* Tem atalhos prontos: **Resumir**, **Corrigir**, **E-mail**.
-- Em **"Ajuste por IA ao inserir pelo atalho"**, escolha qual IA usa (ou **"Nenhum"** pra inserir o texto cru, sem custo).
+- Em **"Ajuste por IA ao inserir pelo atalho"**, escolha qual IA usa. O padrão é **"Nenhum"** (insere o texto cru, sem custo) — troque pra GPT/Claude/Automático se quiser o ajuste.
 
 Sem chave nenhuma o app funciona normal — só insere a transcrição sem ajuste.
 
@@ -50,7 +50,7 @@ Sem chave nenhuma o app funciona normal — só insere a transcrição sem ajust
 | Opção | Onde | Pra quê |
 |---|---|---|
 | Abrir no login | ⚙️ Configurar | O app sobe sozinho quando você liga o Mac |
-| Motor de transcrição | ⚙️ Configurar | **Local** (padrão, rápido/offline) · **SpeechAnalyzer** (macOS 26, mais novo) · **Nuvem/IA** (OpenAI, mais preciso, precisa de chave) |
+| Motor de transcrição | ⚙️ Configurar | **SpeechAnalyzer** (padrão — motor novo da Apple; precisa de **macOS 26**; em versões anteriores o app usa o Local sozinho) · **Local** (clássico, rápido/offline) · **Nuvem/IA** (OpenAI, mais preciso, precisa de chave) |
 | Histórico | Janela principal | Últimas transcrições, com "Usar" e "Copiar" |
 | Sair | Janela principal | Encerra o app de vez |
 
