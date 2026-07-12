@@ -32,9 +32,9 @@ Na primeira gravação, o macOS ainda vai pedir **Microfone** e **Reconhecimento
 
 1. Clique num campo de texto de qualquer app (um e-mail, uma mensagem…).
 2. Aperte o atalho — o padrão é **fn + Tab** (dá pra trocar: ⚙️ → "Gravar atalho" → aperte a combinação que quiser).
-3. **Fale.** Aparece um balãozinho "Transcrevendo…" embaixo da tela.
+3. **Fale.** Aparece um microfone vermelho piscando embaixo, no centro da tela.
 4. Aperte o atalho **de novo** → o texto entra sozinho no campo. 🎉
-5. Falou besteira? **Esc** cancela (e dá pra desfazer o cancelamento no balãozinho).
+5. Falou besteira? **Esc** cancela (e aparece um botão "Desfazer" se mudar de ideia).
 
 ## 🤖 Ajuste por IA (opcional, mas é o pulo do gato)
 
